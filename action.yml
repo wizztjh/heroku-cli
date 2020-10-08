@@ -1,7 +1,7 @@
 name: "Heroku Pipeline Promote"
 description: "Promote an app in a pipeline"
 branding:
-  icon: "arrow-right"
+  icon: "terminal"
   color: "purple"
 inputs:
   heroku_api_key:
