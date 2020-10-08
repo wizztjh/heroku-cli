@@ -1,5 +1,5 @@
 {
-  "name": "heroku-promote-app",
+  "name": "heroku-run",
   "version": "1.0.0",
   "description": "A simple github action that promotes a given heroku up down the pipeline",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiltshift/heroku-promote-app.git"
+    "url": "git+https://github.com/michcio1234/heroku-run.git"
   },
   "keywords": [
     "heroku",
@@ -20,9 +20,9 @@
   ],
   "author": "Tilt/Shift",
   "bugs": {
-    "url": "https://github.com/tiltshift/heroku-promote-app/issues"
+    "url": "https://github.com/michcio1234/heroku-run/issues"
   },
-  "homepage": "https://github.com/tiltshift/heroku-promote-app#readme",
+  "homepage": "https://github.com/michcio1234/heroku-run#readme",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.0"
