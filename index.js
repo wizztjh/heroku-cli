@@ -26,7 +26,7 @@ try {
   execSync('heroku login')
   console.log('Successfully logged into heroku')
 
-  execSync(`heroku run -a ${heroku.app_name} -- ${command}`)
+  execSync(`heroku ${command}` -a ${heroku.app_name}`)
 
   core.setOutput(
     'status',
